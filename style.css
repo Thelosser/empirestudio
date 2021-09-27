@@ -1,0 +1,280 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+footer {
+
+  border: black;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  background-color: #00000096;
+  padding: 1px 0 1px;
+  color: #ffffff;
+
+}
+
+.bh3 {
+
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: 'hack';
+  src: url(/priveimg/Hacked-KerX.ttf);
+}
+
+.fh3 {
+
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.329);
+  /* margin: 10px; */
+  font: inherit;
+  font-family: hack;
+
+  border-radius: 20px;
+}
+
+.fh3:hover {
+  color: rgb(206, 38, 26);
+  border-radius: 20px;
+}
+
+.logo {
+
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+
+}
+
+.logo:hover {
+  /* border-image-width: 0px;
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out 0s; */
+}
+
+
+img {
+  margin: 0px;
+  vertical-align: middle;
+  width: 290px;
+  height: 200px;
+}
+
+
+
+
+body {
+
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#container {
+  color: rgb(214, 214, 214);
+  margin: auto;
+  width: 100vw;
+  height: 80pt;
+  top: 0;
+  bottom: 0;
+  filter: url(#threshold) blur(0.6px);
+}
+
+
+#text1,
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-size: 60pt;
+  text-align: center;
+  user-select: none;
+}
+
+body {
+  background-image: url(/img/bag11.jpg);
+  background-attachment: fixed;
+  background-position: center 0%;
+  /* background-repeat: no-repeat; */
+}
+
+.quote {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+}
+
+.namea {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.pari {
+  box-shadow: 0 3px 10px black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  background-color: rgba(131, 131, 131, 0.274);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 21px;
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  right: 10px;
+
+}
+
+.pari:hover {
+  box-shadow: 0 0px 10px rgb(163, 163, 163)
+    /* cursor: pointer;
+  background-color: rgba(105, 105, 105, 0.274);
+  transform: rotate(10deg);
+  transition: all 1s ease-in-out 0s; */
+}
+
+.info {
+
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+b {
+  color: red;
+  font-family: 'Courgette', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.ylo {
+  color: yellow;
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.add:hover {
+  box-shadow: 0 0px 10px rgb(179, 179, 179);
+}
+
+.add {
+  box-shadow: 0 0px 10px black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(131, 131, 131, 0.274);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 21px;
+
+}
+
+#kunalw {
+  border: solid white;
+  border-radius: 20px;
+}
+
+#kunali {
+  border: solid white;
+  border-radius: 20px;
+}
+
+#kunalw:hover {
+  background-color: rgb(12, 209, 12);
+  color: black;
+}
+
+#kunali:hover {
+
+  background-color: rgb(221, 117, 151);
+  color: black;
+}
+
+.add div ul {
+  display: flex;
+  padding: 0px;
+
+}
+
+.sp3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.socll {
+
+  display: flex;
+  /* text-align: center; */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  padding-left: 20px;
+  height: 20px;
+  width: 100px;
+}
+
+.specialtys:hover {
+  box-shadow: 0 0px 10px rgb(179, 179, 179);
+}
+
+.specialtys {
+
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  background-color: rgba(131, 131, 131, 0.274);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  width: 900px;
+}
+
+.previewh {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+.pics {
+  justify-content: center;
+  text-align: center;
+}
+
+.imgs {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  /* border: solid rgba(0, 0, 0, 0.356); */
+  background-color: rgba(0, 0, 0, 0.219);
+  border-radius: 90px;
+}
+
+.imgs:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
